@@ -10,41 +10,38 @@
             <div id="header">
                 <div id="textChange">Text Size: <a class="textSize" href="google.com">Normal</a><span id="toBlack"> | </span><a class="textSize" href="google.com">Large</a></div>
                 <img src="python.png" id="pypic" alt="python">
-                <div id="searchBox">
-                    <form>
-                        <label for="searchBar"></label>
-                        <input id="searchBar" name="searchBar" onfocus="if (this.value =='search') this.value = ''" type="text" value="Search">
-                        <input type="submit" value="GO">
-                    </form>
-                </div>
+                <form id="searchBox">
+                    <input id="searchBar" name="searchBar" placeholder="search" type="text">
+                    <input type="submit" value="GO">
+                </form>
             </div>
-            <div id="midBar">
-                <div class="barText">About</div>
-                <div class="barText">Downloads</div>
-                <div class="barText">Documentation</div>
-                <div class="barText">Community</div>
-                <div class="barText">News</div>
-                <div class="barText">Events</div>
-            </div>
+            <ul id="midBar">
+                <li class="barText">About</li>
+                <li class="barText">Downloads</li>
+                <li class="barText">Documentation</li>
+                <li class="barText">Community</li>
+                <li class="barText">News</li>
+                <li class="barText">Events</li>
+            </ul>
             <div id="content">
                 <ul id="mainList">
-                    <li class="mainListText"><a class=colorList1 href="google.com">Docs</a></li>
-                    <li class="mainListText"><a class=colorList1 href="google.com">Audio/Visual Talks</a></li>
-                    <li class="mainListText"><a class=colorList1 href="google.com">Beginner's Guide</a></li>
-                    <li class="mainListText"><a class=colorList1 href="google.com">Developer's Guide</a></li>
-                    <li class="mainListText"><a class=colorList1 href="google.com">PEP Index</a></li>
-                    <li class="mainListText"><a class=colorList1 href="google.com">Python Books</a></li>
-                    <li class="mainListText"><a class=colorList1 href="google.com">FAQ</a></li>
+                    <li class="mainListText"><a class="colorList1" href="google.com">Docs</a></li>
+                    <li class="mainListText"><a class="colorList1" href="google.com">Audio/Visual Talks</a></li>
+                    <li class="mainListText"><a class="colorList1" href="google.com">Beginner's Guide</a></li>
+                    <li class="mainListText"><a class="colorList1" href="google.com">Developer's Guide</a></li>
+                    <li class="mainListText"><a class="colorList1" href="google.com">PEP Index</a></li>
+                    <li class="mainListText"><a class="colorList1" href="google.com">Python Books</a></li>
+                    <li class="mainListText"><a class="colorList1" href="google.com">FAQ</a></li>
 
                 </ul>
                 <div id="description">
-                    <div id="history">
+                    <p id="history">
                         First appearing in 1991, python is a general-purpose, high-level, interpreted programming 
                         language whose design focus emphasizes code readability. Whether for processing/analyzing 
                         data to powering many well-known applications, Python is not only a great language for new 
                         programmers but also powerful enough for seasoned developers building whatever they can think
                         of.
-                    </div>
+                    </p>
                     <ul id="quoteList">
                         <li class="quote">Beautiful is better than ugly;</li>
                         <li class="quote">Explicit is better than implicit;</li>
@@ -52,12 +49,11 @@
                         <li class="quote">Complex is better than complicated;</li>
                         <li class="quote">Readability counts;</li>
                     </ul>
-                    <div id="zen">The Zen of Python</div>
+                    <p id="zen">The Zen of Python</p>
                 </div>
             </div>
             <div id="whiteBox">
                 <div class="botBox">
-                    <div class="line1"></div>
                     <div class="title">Getting Started</div>
                     <div class="information">
                         Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages.
@@ -70,7 +66,6 @@
                     </ul>
                 </div>
                 <div class="botBox">
-                    <div class="line1"></div>
                     <div class="title">Applications</div>
                     <div class="information">
                         The <a id="highlight" href="google.com">Python Package Index (PyPI)</a> hosts thousands of third party modules for Python.
@@ -86,11 +81,11 @@
                 </div>
             </div>
             <div id="footer">
-                <div id="otherBox">
-                    <a class="other" href="google.com">Help and General Contact</a>
-                    <a class="other" href="google.com">Diversity Initiatives</a>
-                    <a class="other" href="google.com">Submit Website Bugs</a>
-                </div>
+                <ul id="otherBox">
+                   <li class="lastList"> <a class="other" href="google.com">Help and General Contact</a></li>
+                    <li class="lastList"><a class="other" href="google.com">Diversity Initiatives</a></li>
+                    <li class="lastList"><a class="other" href="google.com">Submit Website Bugs</a></li>
+                </ul>
                 <div id="copyright">Copyright ©2001-2016.</div>
             </div>
         </div>

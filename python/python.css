@@ -143,11 +143,14 @@ input[type=submit]{
 
 .botBox{
     /*text-align: center;*/
+    border-top:#68A9D2 solid 5px;
     vertical-align: top;
     display: inline-block;
-    height:250px;
+    height:245px;
     width: 400px;
     margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 5px;
 }
 
 .line1{
@@ -155,8 +158,6 @@ input[type=submit]{
     display: inline-block;
     vertical-align: top;
     margin-left:20px;
-    background-color:#68A9D2;
-    height: 5px;
     width:400px;
 }
 
@@ -217,6 +218,11 @@ input[type=submit]{
     margin:20px;
     text-decoration: none;
     color:#68A9D2;
+}
+
+.lastList{
+    display: inline-block;
+    list-style-type: none;
 }
 
 #copyright{
