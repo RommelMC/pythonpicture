@@ -30,6 +30,11 @@
     margin-left: 30px;
 }
 
+.barLink{
+    color: white;
+    text-decoration: none;
+}
+
 #searchBox{
     background-color: #444444;
     height: 70px;
